@@ -81,6 +81,7 @@ public class CreateCube : MonoBehaviour
     public void ResultGame()
     {
         Application.LoadLevel(1);
+        createball.callball.count = 0;
     }
     public void Planes1()
     {
